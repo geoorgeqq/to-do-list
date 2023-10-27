@@ -1,0 +1,58 @@
+body{
+    background-color: #daccba;
+}
+
+.container{
+    margin: 0 auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAEBD7;
+}
+
+input{
+    background-color: #b9ac9bf6;
+}
+
+.textToInput{
+    width: 75%;
+    margin-right: 20px;
+}
+
+.inputSubmit {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+
+.submitBtn{
+    width: 70px;
+    height: 20px;
+    color: white;
+}
+
+ul{
+    width: 69%;
+    padding: 0;
+}
+
+ul li{
+    text-decoration: none;
+    list-style-type:none;
+    cursor: pointer;
+    user-select: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+    width: 100%;
+    text-align: center;
+}
+
+.removeBtn{
+    background-color: rgb(214, 91, 91);
+    margin-bottom: 20px;
+}
+
+
+
